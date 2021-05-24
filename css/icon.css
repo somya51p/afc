@@ -15,10 +15,28 @@
 }
 .icon-link.fill.facebook:hover {
   background-color: #fff;
-  
 }
 .icon-link.fill.facebook:hover .fa-facebook {
   color: #3b5998;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link.fill.instagram {
+  background: linear-gradient(
+    -135deg,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #e95950,
+    #fbad50,
+    #fccc63
+  );
+}
+.icon-link.fill.instagram:hover {
+  background: #fff;
+}
+.icon-link.fill.instagram:hover .fa-instagram {
+  color: #e1306c;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
@@ -136,7 +154,7 @@
   background-color: #fff;
 }
 .icon-link.brand .fa {
-  color: #006FC2;
+  color: #006fc2;
 }
 .icon-link.round {
   border-radius: 50%;
@@ -154,6 +172,9 @@
 }
 .icon-link:hover.facebook {
   border: 2px solid #3b5998;
+}
+.icon-link:hover.instagram {
+  border: 2px solid #e1306c;
 }
 .icon-link:hover.tumblr {
   border: 2px solid #32506d;
@@ -190,6 +211,11 @@
 }
 .icon-link:hover .fa-facebook {
   color: #3b5998;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+}
+.icon-link:hover .fa-instagram {
+  color: #e1306c;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
