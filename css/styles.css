@@ -15,7 +15,7 @@ a {
   color: #6ec8a4;
 }
 .navbar-nav > li > a:hover {
-  color: black;
+  color: #6ec8a4;
   font-weight: bolder;
   transform: scale(1.15);
   transition: 0.5s;
