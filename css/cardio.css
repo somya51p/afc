@@ -119,6 +119,8 @@ header {
 
 .intro {
   background: rgba(28, 36, 65, 0.3);
+  max-width: 100%;
+  height: auto;
   background-image: url("../img/bgg.jpeg");
   opacity: 0.5;
   background-size: cover;
